@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.test1demoproyect1.Test1DemoProyect1ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-12T15:49:46" hostname="AZENPDVDI0202" time="1.187">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.test1demoproyect1.Test1DemoProyect1ApplicationTests" time="1.187"/>
+  <system-out><![CDATA[09:49:42.790 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [Test1DemoProyect1ApplicationTests]: using SpringBootContextLoader
+09:49:42.801 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.test1demoproyect1.Test1DemoProyect1ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:49:42.803 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.test1demoproyect1.Test1DemoProyect1ApplicationTests]: Test1DemoProyect1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:49:42.852 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [Test1DemoProyect1ApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+09:49:43.024 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\1031393\Documents\GitHub\Test1DemoProyect1\build\classes\java\main\com\example\test1demoproyect1\Test1DemoProyect1Application.class]
+09:49:43.029 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.test1demoproyect1.Test1DemoProyect1Application for test class com.example.test1demoproyect1.Test1DemoProyect1ApplicationTests
+09:49:43.313 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+09:49:43.316 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+09:49:43.319 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [Test1DemoProyect1ApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+09:49:43.322 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [Test1DemoProyect1ApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.0)
+
+2022-12-12T09:49:44.016-06:00  WARN 4332 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/1031393/.gradle/caches/modules-2/files-2.1/org.json/json/20171018/36ced462c97f0845b4a7b266a25cebe95d18baa3/json-20171018.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/1031393/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-12-12T09:49:44.060-06:00  INFO 4332 --- [    Test worker] c.e.t.Test1DemoProyect1ApplicationTests  : Starting Test1DemoProyect1ApplicationTests using Java 17.0.5 with PID 4332 (started by 1031393 in C:\Users\1031393\Documents\GitHub\Test1DemoProyect1)
+2022-12-12T09:49:44.062-06:00  INFO 4332 --- [    Test worker] c.e.t.Test1DemoProyect1ApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-12-12T09:49:46.946-06:00  INFO 4332 --- [    Test worker] c.e.t.Test1DemoProyect1ApplicationTests  : Started Test1DemoProyect1ApplicationTests in 3.511 seconds (process running for 5.791)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

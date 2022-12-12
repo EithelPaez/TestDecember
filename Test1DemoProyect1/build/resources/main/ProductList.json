@@ -1,0 +1,28 @@
+{
+  "productList": [
+    {
+      "productId": "Prod2",
+      "productName": "Trousers",
+      "unitOfMeasure": "EACH",
+      "launchDate": "2021-02-19"
+    },
+    {
+      "productId": "Prod1",
+      "productName": "Shirt",
+      "unitOfMeasure": "EACH",
+      "launchDate": "2021-02-21"
+    },
+    {
+      "productId": "Prod3",
+      "productName": "Tie",
+      "unitOfMeasure": "EACH",
+      "launchDate": "2021-02-22"
+    },
+    {
+      "productId": "Prod3",
+      "productName": "Tie",
+      "unitOfMeasure": "EACH",
+      "launchDate": "2021-02-24"
+    }
+  ]
+}
